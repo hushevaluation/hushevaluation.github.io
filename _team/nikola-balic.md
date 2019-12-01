@@ -1,11 +1,11 @@
 ---
 title: 'Nikola Balić, MSc'
 image: '/images/team/nikola.jpg'
-jobtitle: 'Expert Evaluator'
+jobtitle: 'Innovation, infrastructure and cooperation'
 email: 'nikola@hushevaluation.com'
 linkedinurl: 'https://www.linkedin.com/in/nikolabalic/'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Nikola has experience in evaluation of cross-border cooperation and innovation development and commercialisation projects. He has been working at the University of Split as Head of projects and technology transfer where he manages more than 30 mil. EUR worth of projects ranging from SME support to infrastructure investment.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Nikola also has experience in the role of business development manager and growth advisor. Since 2013 he holds the position of European IPR Helpdesk Ambassador.
