@@ -1,0 +1,34 @@
+---
+title: Evaluation
+layout: default
+bodyClass: page-evaluation
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Pre-evaluation</h1>
+        <p>
+          We will simulate a real evaluation to make sure that you have a best proposal.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      <ul>
+        <li><strong>Phone: </strong>{{ site.data.contact.phone }}</li>
+        <li><strong>Email: </strong><a href="mailto:{{ site.data.contact.email }}">
+            {{ site.data.contact.email }}</a></li>
+        {% if site.data.contact.address %}
+        <li><strong>Address: </strong>{{ site.data.contact.address }}</li>
+        {% endif %}
+      </ul>
+      <h4 class="mt-4">Business Hours</h4>
+    </div>
+  </div>
+</div>

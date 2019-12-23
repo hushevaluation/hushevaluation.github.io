@@ -1,5 +1,5 @@
-.page-services-list {
-  background-image: url('../images/undraw_businesswoman_pc12.svg');
+.page-evaluation {
+  background-image: url('../images/fogg-searching-2.png');
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: 49px -40px;
@@ -14,5 +14,20 @@
   @include media-breakpoint-up(lg) {
     background-size: 60%;
     background-position: 100% -110px;
+  }
+  h1.title {
+    font-size: 3rem;
+    font-family: $font-family-heading;
+    color: $primary;
+  }
+  .content {
+    > p {
+      &:first-of-type {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 40px;
+        font-weight: 300;
+      }
+    }
   }
 }

@@ -12,45 +12,32 @@ bodyClass: page-home
 </div>
 
 <div class="container pt-2">
-  <div class="call">
-    <div class="call-box-top">
-      <div>
-        Actionable advice straight into your inbox.
-      </div>
+    <div>
+      Actionable insights in your inbox.
     </div>
-    <div class="call-box-bottom">
-      <a href="{{site.baseurl}}/contact" class="button">Subscribe</a>
-    </div>
-  </div>
-</div>
+<!-- Begin Mailchimp Signup Form -->
+  <div class="call pt-2 pl-2 pb-1" id="mc_embed_signup">
+    <form action="https://hushevaluation.us4.list-manage.com/subscribe/post?u=5d1d801a7c68163e41c30a68a&amp;id=b89ed98e73" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+      <div class="form-group mb-2">
+  			<input type="email" value="" placeholder="your@email.com" name="EMAIL" class="form-control form-control-lg" id="mce-EMAIL">
 
-<div class="container pt-8 pt-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">Our Services</h2>
-    </div>
-    {% for service in site.services %}
-    <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
-        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+  			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5d1d801a7c68163e41c30a68a_b89ed98e73" tabindex="-1" value=""></div>
+
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
       </div>
-    </div>
-    {% endfor %}
-    <div class="col-12 text-center">
-      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
-    </div>
+      <small id="passwordHelpBlock" class="form-text text-muted">
+        Your email won't be used for any other purpose other then actionable insights emails.
+      </small>
+    </form>
   </div>
 </div>
+<!--End mc_embed_signup-->
 
 <div class="container pt-5 pb-5 pt-md-7 pb-md-7">
   <div class="row justify-content-center">
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-4">Our Features</h2>
+      <h2 class="title-3 text-dark mb-4">Service packages</h2>
     </div>
     {% for feature in site.data.features %}
     <div class="col-12 col-md-6 col-lg-4 mb-2">
@@ -58,8 +45,32 @@ bodyClass: page-home
         {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
         <h2 class="feature-title">{{ feature.title }}</h2>
         <div class="feature-content">{{ feature.description }}</div>
+        <a class="button button-primary mt-2" href="{{site.baseurl}}/{{ feature.link }}">{{ feature.button }}</a>
       </div>
     </div>
     {% endfor %}
+  </div>
+</div>
+
+<div class="container pt-2 mb-10">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-3">Tips & tricks</h2>
+    </div>
+    {% for tip in site.tips %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{site.baseurl}}{{ tip.url }}">{{ tip.title }}</a>
+          </h2>
+          {{ tip.content | markdownify | strip_html | truncate: 100 }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12 text-center">
+      <a class="button button-primary mt-2" href="{{site.baseurl}}/tips">Read All Tips</a>
+    </div>
   </div>
 </div>

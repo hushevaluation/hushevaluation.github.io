@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Tips
 layout: default
 bodyClass: page-services-list
 ---
@@ -8,7 +8,7 @@ bodyClass: page-services-list
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Services that grow with your business</h1>
+        <h1>Tips and tricks to help you grow your winning project proposal.</h1>
         <p>
           Our business helps hundreds of customers with their accounting and
           taxation needs each year.
@@ -20,14 +20,14 @@ bodyClass: page-services-list
 
 <div class="container pb-6">
   <div class="row">
-    {% for service in site.services %}
+    {% for tip in site.tips %}
     <div class="col-12 col-md-4 mb-1">
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+            <a href="{{site.baseurl}}{{ tip.url }}">{{ tip.title }}</a>
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+          {{ tip.content | markdownify | strip_html | truncate: 100 }}
         </div>
       </div>
     </div>

@@ -1,17 +1,18 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "Pre-evaluation",
+    "description": "We will simulate a real evaluation to make sure that you have a best proposal.",
+    "image": "images/features/noun_3d modeling_1885342.svg",
+    "price": "1.800 EUR",
+    "button": "Find more NOW!",
+    "link": "evaluation"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
-  },
-  {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "Continous Support",
+    "description": "We will be there for you during the whole preparation of your proposal.",
+    "image": "images/features/noun_The Process_1885341.svg",
+    "price": "4.500 EUR",
+    "button": "I surely need it!",
+    "link": "support"
   }
 ]

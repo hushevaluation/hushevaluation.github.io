@@ -4,9 +4,9 @@ permalink: pretty
 title: 'Hush Evaluation'
 
 collections:
-  services:
+  tips:
     output: true
-    permalink: /services/:path/
+    permalink: /tips/:path/
   team:
     output: true
     permalink: /team/:path/
@@ -16,9 +16,9 @@ collections:
 
 defaults:
   - scope:
-      type: services
+      type: tips
     values:
-      layout: service
+      layout: tip
       bodyClass: page-services-single
   - scope:
       path: 'images'
