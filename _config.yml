@@ -8,7 +8,7 @@ collections:
     output: true
     permalink: /tips/:path/
   team:
-    output: true
+    output: false
     permalink: /team/:path/
   testimonials:
     output: true
